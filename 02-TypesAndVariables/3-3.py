@@ -6,8 +6,8 @@ y = 34
 z = 0 # additional, auxiliary variable
 print("Before swapping: x=", x, "y=", y)
 
-# swap the values
-...
-...
+swap = x
+x = y
+y = swap
 
 print("After swapping: x=", x, "y=", y)
